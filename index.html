@@ -212,6 +212,15 @@ a.btn{text-decoration:none}
   <div class="acts"><a class="btn" target="_blank" rel="noopener" href="https://waze.com/ul?q=Holiday%20Avenue%201118%20ZG%20Schiphol&navigate=yes">Ouvrir dans Waze</a><a class="btn alt" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Holiday%20Avenue%201118%20ZG%20Schiphol">Google Maps</a><button class="btn alt" id="cpad">Copier l’adresse</button></div>
   <div class="row"><span class="hold"><svg class="ic"><use href="#inf"/></svg></span><div><b>Entrée du parking</b><span class="m">Voie avant gauche. Reconnaissance de plaque (jusqu’à 10 secondes) ou QR code de l’e-mail de confirmation.</span></div><span></span></div></div>
  <div class="card"><h3>Hôtels et codes de réservation</h3><div id="hres"></div></div>
+ <div class="card"><h3>eVisa Égypte</h3>
+  <div class="feat" style="cursor:default;margin-top:4px"><span class="hold"><svg class="ic"><use href="#tix"/></svg></span><div><span class="m">Tourisme · 1 entrée · émis le 28 oct. 2026</span><b>Valable jusqu’au 26 janvier 2027</b></div><span></span></div>
+  <div class="row"><span class="av">AN</span><div><b>Anne</b><span class="m">eVisa à ajouter</span></div><span class="pill tc">Manquant</span></div>
+  <div class="row"><span class="av">AR</span><div><b>Arnaud</b><span class="m code">EV-267828976622</span></div><span class="pill">Reçu</span></div>
+  <div class="row"><span class="av">CE</span><div><b>Christiane</b><span class="m code">EV-262450124042</span></div><span class="pill">Reçu</span></div>
+  <div class="row"><span class="av">CN</span><div><b>Christian</b><span class="m code">EV-268718148407</span></div><span class="pill">Reçu</span></div>
+  <div class="row"><span class="av">EL</span><div><b>Elliott</b><span class="m code">EV-264541995557</span></div><span class="pill">Reçu</span></div>
+  <div class="row"><span class="av">BO</span><div><b>Bonnie</b><span class="m code">EV-263507656324</span></div><span class="pill">Reçu</span></div>
+  <p class="src">À présenter au contrôle des passeports à l’arrivée au Caire, avec le passeport. Enregistrer chaque PDF sur le téléphone avant le départ, au cas où le réseau manque à l’aéroport, et en garder une version imprimée. Les QR codes restent dans les PDF.</p></div>
  <div class="card"><h3>Grand Egyptian Museum</h3>
   <div class="feat" style="cursor:default;margin-top:4px"><span class="hold"><svg class="ic"><use href="#tix"/></svg></span><div><span class="m">Mercredi 4 novembre · entrée à 11:00</span><b class="ref" style="font-size:19px;font-weight:300;letter-spacing:.04em">XZD7MXBZC6</b></div><button class="round" id="copygem" aria-label="Copier le numéro de réservation du musée"><svg class="ic"><use href="#cpy"/></svg></button></div>
   <div class="row"><span class="hold"><svg class="ic"><use href="#tix"/></svg></span><div><b class="code">6M6CR0ERXB9VCS</b><span class="m">Billet 1 · Adulte · 1 830 EGP</span></div></div>
@@ -237,6 +246,7 @@ a.btn{text-decoration:none}
   <div class="fact"><span class="hold"><svg class="ic"><use href="#plane"/></svg></span><div><b>Forfait Smart et Priority Boarding</b><span class="m">Même forfait pour les 6 billets, embarquement avec le premier groupe.</span></div></div></div>
  <div class="card"><h3>À savoir</h3>
   <div class="fact"><span class="hold"><svg class="ic"><use href="#inf"/></svg></span><div><b>Document de voyage valide</b><span class="m">Avec le numéro de réservation pour l’enregistrement en ligne. Inutile d’imprimer.</span></div></div>
+  <div class="fact"><span class="hold"><svg class="ic"><use href="#tix"/></svg></span><div><b>eVisa Égypte</b><span class="m">Un par personne, valable jusqu’au 26 janvier 2027, une seule entrée. À montrer à l’arrivée, détail dans l’onglet Réserv.</span></div></div>
   <div class="fact"><span class="hold"><svg class="ic"><use href="#tix"/></svg></span><div><b>Enregistrement en ligne</b><span class="m">Ouvert 30 heures avant le vol. La confirmation n’est pas une carte d’embarquement.</span></div></div>
   <div class="fact"><span class="hold"><svg class="ic"><use href="#cal"/></svg></span><div><b>Comptoirs et heures locales</b><span class="m">Heure de fermeture absente de l’e-mail, à vérifier dans l’app Transavia. Les horaires de vol sont en heure locale. Le Caire a 1 h de plus que la Belgique.</span></div></div></div>
 
@@ -281,7 +291,7 @@ waldorf:{n:"Waldorf Astoria Cairo Heliopolis",r:"Ven 6 – sam 7 nov.",d:5,x:[]}
 var D=[
 {ab:"DIM",n:1,t:"Départ pour Le Caire",h:"sofitel",img:"img/jour1.jpg",alt:"Le Sofitel sur le Nil",s:[
  ["car","07:30","Départ de Terneuzenlaan 23, Gent","Taxi Arnaud vers Schiphol."],["car","","Parking P3 Long term","Couvert, Holiday Avenue, 1118 ZG Schiphol. Navette gratuite vers le terminal.","Réservé"],
- ["plane","14:00","Transavia HV5167 AMS → CAI","Arrivée au Caire à 19:35, heure locale. Il y a 1 h de plus qu’en Belgique.","","vol"],["bed","19:35","Arrivée au Sofitel Cairo Nile El Gezirah","Installation à l’hôtel.","","hotel"],["food","","Dîner à l’hôtel","Pour le premier soir."]]},
+ ["plane","14:00","Transavia HV5167 AMS → CAI","Arrivée au Caire à 19:35, heure locale. Il y a 1 h de plus qu’en Belgique.","","vol"],["tix","","Contrôle des passeports","Présenter l’eVisa de chacun (PDF sur le téléphone ou imprimé) avec le passeport.","eVisa"],["bed","19:35","Arrivée au Sofitel Cairo Nile El Gezirah","Installation à l’hôtel.","","hotel"],["food","","Dîner à l’hôtel","Pour le premier soir."]]},
 {ab:"LUN",n:2,t:"Zamalek et le Nil",h:"sofitel",img:"img/jour2.jpg",alt:"Zamalek et le Nil vus du ciel",s:[
  ["food","","Petit-déjeuner à l’hôtel"],["pyr","","Découverte et shopping à Zamalek","Lunch chez Zooba ou Foam."],["sun","","Piscine"],["food","18:00 – 21:00","Walking & food tour avec Magy"]]},
 {ab:"MAR",n:3,t:"Le Caire historique",h:"sofitel",img:"img/jour3.jpg",alt:"La Citadelle de Saladin au Caire",s:[
